@@ -1,0 +1,4 @@
+C:\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.csprojAssemblyReference.cache
+C:\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.AssemblyInfoInputs.cache
+C:\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.AssemblyInfo.cs
