@@ -21,9 +21,9 @@ namespace EmployeeManagement.Models
             new Employee
             {
                 Id = 2,
-                Name = "Aya",
+                Name = "Mubina",
                 Department = Dept.HR,
-                Email = "Aya.b2010@gmail.com"
+                Email = "mubina.b2010@gmail.com"
             }
            );
         }

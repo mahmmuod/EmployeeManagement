@@ -15,6 +15,8 @@
     <Compile Remove="Migrations\20200501112327_AddPhotoPathColumn.Designer.cs" />
     <Compile Remove="Migrations\20200501112418_AddSomeProperty.cs" />
     <Compile Remove="Migrations\20200501112418_AddSomeProperty.Designer.cs" />
+    <Compile Remove="Migrations\20201215182641_AddEmployeeAgeColumn.cs" />
+    <Compile Remove="Migrations\20201215182641_AddEmployeeAgeColumn.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

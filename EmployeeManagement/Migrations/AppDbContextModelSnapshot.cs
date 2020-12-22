@@ -56,8 +56,8 @@ namespace EmployeeManagement.Migrations
                         {
                             Id = 2,
                             Department = 1,
-                            Email = "Aya.b2010@gmail.com",
-                            Name = "Aya"
+                            Email = "mubina.b2010@gmail.com",
+                            Name = "Mubina"
                         });
                 });
 #pragma warning restore 612, 618
