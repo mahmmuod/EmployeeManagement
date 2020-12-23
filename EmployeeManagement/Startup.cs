@@ -2,6 +2,7 @@ using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,16 +19,19 @@ namespace EmployeeManagement
         {
             _config = config;
         }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>();
 
-            services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(_config.GetConnectionString("EmployeeDBConnection")));
-           services.AddMvc(options => options.EnableEndpointRouting=false).AddXmlSerializerFormatters();
+            services.AddDbContextPool<AppDbContext>(options =>
+                options.UseSqlServer(_config.GetConnectionString("EmployeeDBConnection")));
+            services.AddMvc(options => options.EnableEndpointRouting = false).AddXmlSerializerFormatters();
 
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,7 +39,6 @@ namespace EmployeeManagement
         {
             if (env.IsDevelopment())
             {
-              
                 app.UseDeveloperExceptionPage();
             }
             else
@@ -44,14 +47,10 @@ namespace EmployeeManagement
                 app.UseStatusCodePagesWithReExecute("/Error/{0}");
             }
 
-         
+            app.UseAuthentication();
             app.UseStaticFiles();
             //app.UseMvcWithDefaultRoute();
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
-            });
-
+            app.UseMvc(routes => { routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}"); });
         }
     }
 }
