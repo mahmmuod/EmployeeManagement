@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Models
 {
-    public class SQLEmployeeRepository : IEmployeeRepository
+    public class SqlEmployeeRepository : IEmployeeRepository
     {
         private readonly AppDbContext context;
 
-        public SQLEmployeeRepository(AppDbContext context)
+        public SqlEmployeeRepository(AppDbContext context)
         {
             this.context = context;
         }

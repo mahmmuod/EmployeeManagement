@@ -181,3 +181,5 @@ C:\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.AspNe
 C:\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Core.dll
 C:\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Stores.dll
 C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Login.cshtml.g.cs
