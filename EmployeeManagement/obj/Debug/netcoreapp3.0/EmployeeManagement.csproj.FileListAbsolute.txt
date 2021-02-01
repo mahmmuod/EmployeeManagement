@@ -183,3 +183,7 @@ C:\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Exten
 C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
 C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Register.cshtml.g.cs
 C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\ListRoles.cshtml.g.cs
+C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs

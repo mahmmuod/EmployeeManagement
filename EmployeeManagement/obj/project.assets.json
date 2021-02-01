@@ -6087,6 +6087,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\localsysnuget": {},
         "https://aerdata.pkgs.visualstudio.com/_packaging/CMS/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
