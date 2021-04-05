@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {}
+    "E:\\api\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {}
   },
   "projects": {
-    "C:\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {
+    "E:\\api\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectUniqueName": "E:\\api\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
         "projectName": "EmployeeManagement",
-        "projectPath": "C:\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectPath": "E:\\api\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
         "packagesPath": "C:\\Users\\APPIATECH\\.nuget\\packages\\",
-        "outputPath": "C:\\EmployeeManagement\\EmployeeManagement\\obj\\",
+        "outputPath": "E:\\api\\EmployeeManagement\\EmployeeManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\APPIATECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,12 +27,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\localsysnuget": {},
-          "https://aerdata.pkgs.visualstudio.com/_packaging/CMS/nuget/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://aerdata.pkgs.visualstudio.com/_packaging/Shared/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -42,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -83,7 +85,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.2, 3.0.2]"
+              "version": "[3.0.3, 3.0.3]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -102,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
